@@ -8,33 +8,33 @@ import { TryFont } from "@/components/try-font";
 import { MotionSection } from "@/components/ui/motion-section";
 
 export default function Home() {
-	return (
-		<main>
-			<MotionSection>
-				<Hero />
-			</MotionSection>
+  return (
+    <main>
+      <MotionSection>
+        <Hero />
+      </MotionSection>
 
-			<MotionSection>
-				<TryFont />
-			</MotionSection>
+      <MotionSection>
+        <TryFont />
+      </MotionSection>
 
-			<MotionSection>
-				<Features />
-			</MotionSection>
+      <MotionSection>
+        <Features />
+      </MotionSection>
 
-			<MotionSection>
-				<CompareSection />
-			</MotionSection>
+      <MotionSection>
+        <CompareSection />
+      </MotionSection>
 
-			<MotionSection>
-				<FAQ />
-			</MotionSection>
+      <MotionSection>
+        <FAQ />
+      </MotionSection>
 
-			<MotionSection>
-				<CTASection />
-			</MotionSection>
+      <MotionSection>
+        <CTASection />
+      </MotionSection>
 
-			<Footer />
-		</main>
-	);
+      <Footer />
+    </main>
+  );
 }

@@ -24,7 +24,7 @@ export function CTASection() {
               className="bg-white px-8 text-black hover:bg-zinc-200"
               asChild
             >
-              <Link href="https://github.com/tyrailleverett/block-mono/releases/latest">
+              <Link href="https://github.com/tyrailleverett/blockmonofont">
                 Download Now
               </Link>
             </Button>

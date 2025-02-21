@@ -7,7 +7,7 @@ import {
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue,
+  SelectValue
 } from "@/components/ui/select";
 import { LANGUAGE_OPTIONS } from "@/constants/editor-options";
 
@@ -66,7 +66,7 @@ export function TryFont() {
                 minimap: { enabled: false },
                 scrollBeyondLastLine: false,
                 padding: { top: 20 },
-                renderLineHighlight: "none",
+                renderLineHighlight: "none"
               }}
             />
           </div>

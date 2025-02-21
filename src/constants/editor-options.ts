@@ -19,15 +19,15 @@ export const DEFAULT_CODE = `function fibonacci(n: number): number {
 console.log(fibonacci(10)); // Output: 55`;
 
 export const LANGUAGE_OPTIONS = {
-	typescript: {
-		label: "TypeScript",
-		value: "typescript",
-		defaultCode: DEFAULT_CODE,
-	},
-	html: {
-		label: "HTML",
-		value: "html",
-		defaultCode: `<!DOCTYPE html>
+  typescript: {
+    label: "TypeScript",
+    value: "typescript",
+    defaultCode: DEFAULT_CODE
+  },
+  html: {
+    label: "HTML",
+    value: "html",
+    defaultCode: `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,12 +57,12 @@ export const LANGUAGE_OPTIONS = {
         </section>
     </main>
 </body>
-</html>`,
-	},
-	css: {
-		label: "CSS",
-		value: "css",
-		defaultCode: `/* Modern CSS Reset */
+</html>`
+  },
+  css: {
+    label: "CSS",
+    value: "css",
+    defaultCode: `/* Modern CSS Reset */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -95,12 +95,12 @@ h1 {
     width: min(90%, 70rem);
     margin-inline: auto;
     padding-block: 2rem;
-}`,
-	},
-	java: {
-		label: "Java",
-		value: "java",
-		defaultCode: `public class Fibonacci {
+}`
+  },
+  java: {
+    label: "Java",
+    value: "java",
+    defaultCode: `public class Fibonacci {
     public static int fibonacci(int n) {
         // Base cases
         if (n <= 1) {
@@ -123,12 +123,12 @@ h1 {
     public static void main(String[] args) {
         System.out.println(fibonacci(10)); // Output: 55
     }
-}`,
-	},
-	ruby: {
-		label: "Ruby",
-		value: "ruby",
-		defaultCode: `def fibonacci(n)
+}`
+  },
+  ruby: {
+    label: "Ruby",
+    value: "ruby",
+    defaultCode: `def fibonacci(n)
   # Base cases
   return n if n <= 1
 
@@ -146,12 +146,12 @@ h1 {
 end
 
 # Test the function
-puts fibonacci(10) # Output: 55`,
-	},
-	php: {
-		label: "PHP",
-		value: "php",
-		defaultCode: `<?php
+puts fibonacci(10) # Output: 55`
+  },
+  php: {
+    label: "PHP",
+    value: "php",
+    defaultCode: `<?php
 
 function fibonacci(int $n): int {
     // Base cases
@@ -172,12 +172,12 @@ function fibonacci(int $n): int {
 }
 
 // Test the function
-echo fibonacci(10); // Output: 55`,
-	},
-	csharp: {
-		label: "C#",
-		value: "csharp",
-		defaultCode: `using System;
+echo fibonacci(10); // Output: 55`
+  },
+  csharp: {
+    label: "C#",
+    value: "csharp",
+    defaultCode: `using System;
 
 public class Program
 {
@@ -205,6 +205,6 @@ public class Program
     {
         Console.WriteLine(Fibonacci(10)); // Output: 55
     }
-}`,
-	},
+}`
+  }
 } as const;

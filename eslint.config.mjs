@@ -57,7 +57,7 @@ export default tseslint.config(
   },
   {
     ignores: [
-      "tailwind.config.js",
+      "tailwind.config.ts",
       "commitlint.config.mjs",
       "eslint.config.mjs",
       "src/components/ui/**",

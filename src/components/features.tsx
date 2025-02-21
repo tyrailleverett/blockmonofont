@@ -6,7 +6,7 @@ import {
   Settings2Icon,
   TerminalIcon,
   TextCursorInput,
-  TypeOutline,
+  TypeOutline
 } from "lucide-react";
 
 export function Features() {

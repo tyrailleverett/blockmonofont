@@ -63,7 +63,7 @@ export function LampContainer({
             ease: "easeInOut"
           }}
           className="absolute inset-auto z-30 h-36 w-64 -translate-y-24 rounded-full bg-black opacity-40 blur-2xl"
-         />
+        />
         <motion.div
           initial={{ width: "15rem" }}
           whileInView={{ width: "30rem" }}
@@ -73,7 +73,7 @@ export function LampContainer({
             ease: "easeInOut"
           }}
           className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-28 bg-zinc-300 opacity-50"
-         />
+        />
 
         <div className="absolute inset-auto z-40 h-0.5 w-full -translate-y-[12.5rem] bg-black" />
       </div>

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "lint": "eslint --fix --max-warnings 0",
+    "lint": "eslint --no-warn-ignored --fix --max-warnings 0",
     "format": "prettier --write .",
     "build": "next build"
   },
