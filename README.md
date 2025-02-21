@@ -4,6 +4,16 @@
 
 Block Mono is a meticulously crafted programming font designed to make every keystroke a masterpiece. Tall, elegant, and exceptionally readable, it's the perfect companion for developers who demand both beauty and functionality in their coding environment.
 
+## 🎯 Visual Showcase
+
+Experience the exceptional clarity of Block Mono:
+
+![Block Mono Clarity](public/BlockMonoPic.png)
+
+See how Block Mono compares to JetBrains Mono:
+
+![Block Mono vs JetBrains Mono Comparison](public/BlockMonoCompare.png)
+
 ## ✨ Key Features
 
 ### Built for Developers
